@@ -7,7 +7,7 @@ import "./styles/styles.scss"
 
 ReactDOM.render(
   <React.StrictMode>
-      <LoginForm/>
+      <LoginForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
