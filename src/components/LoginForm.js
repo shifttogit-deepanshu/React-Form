@@ -3,6 +3,7 @@ import {Formik,Form,Field,ErrorMessage} from 'formik'
 import * as Yup from 'yup'
 
 export const LoginForm = ()=>(
+    <div className="formik">
     <Formik 
     initialValues={{email:"",password:""}}
     validationSchema={Yup.object({
@@ -29,6 +30,7 @@ export const LoginForm = ()=>(
     </div>
     </Form>
     </Formik>
+    </div>
 )
 
 export default LoginForm
